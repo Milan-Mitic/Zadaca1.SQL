@@ -18,13 +18,13 @@ StationID int
 
 insert into Stations(StationID, StationName, City)
 values 
-     (1, 'StationName1', 'City1'),
+         (1, 'StationName1', 'City1'),
 	 (2, 'StationName2', 'City2'),
 	 (3, 'StationName3', 'City3');
 
 insert into Trains(TrainID, TrainName, TrainType, DepartureTime, ArrivalTime, StationID)
 values 
-     (10, 'TrainName1', 'TrainType1', '08:00:00', '11:00:00', 1),
+         (10, 'TrainName1', 'TrainType1', '08:00:00', '11:00:00', 1),
 	 (11, 'TrainName2', 'TrainType2', '09:00:00', '12:00:00', 2),
 	 (12, 'TrainName3', 'TrainType3', '10:00:00', '13:00:00', 3),
 	 (13, 'TrainName4', 'TrainType4', '11:00:00', '14:00:00', 2),
